@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pageback"
+    tools:context=".DisplayActivity">
+
+    <Button
+        android:id="@+id/btnaddFavouites"
+        android:layout_width="205dp"
+        android:layout_height="47dp"
+        android:background="@drawable/submit_buttons"
+        android:text="A d d  T o  F a v o u r i t e s"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        android:contentDescription="add to favourites"/>
+
+    <ListView
+        android:id="@+id/listViewDisplayMovies"
+        android:layout_width="366dp"
+        android:layout_height="507dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSDisplayheader"
+        android:layout_width="367dp"
+        android:layout_height="42dp"
+        android:background="@drawable/header_back2"
+        android:text="Display Registered Movies"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        android:contentDescription="Registered movies"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
